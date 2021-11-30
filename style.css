@@ -552,6 +552,28 @@ section .title::after{
   border: 2px solid crimson;
   transition: all 0.3s ease;
 }
+
+.project-btn{
+    color: #fff;
+  width: 160px!important;
+  height: 45px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  background: crimson;
+  border: 2px solid crimson;
+  transition: all 0.3s ease;
+}
+.project-btn:hover{
+    background: transparent;
+    color: rgb(255, 255, 255);
+    padding: 8px 12px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
 .right form .button-area button:hover{
   color: crimson;
   background: none;
